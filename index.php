@@ -1,3 +1,4 @@
+<!DOCTYPE>
 <html>
  <head>
   <title>F.L.A.M.E.S. | <?php
@@ -7,21 +8,27 @@
 		else
 			echo "Test your compatibility";
   ?></title>
-		<link rel="stylesheet" type="text/css" href="style.css"/>
+    <!-- stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/foundation.css"/>
+    <link rel="stylesheet" type="text/css" href="css/foundation.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+
+    <!-- Favicon -->
 		<link rel="shortcut icon" href="flames.ico" />
+
  </head>
   <body>
 	<div id="black_box" width="100%" align="center">
 		<span id="title">F.L.A.M.E.S.</span><br/>
-		<span id="subtitle"><span style="font-size: 9px">Friends * Lovers * Anger * Married * Engaged * Sweethearts</span> <br/>
-Do you really think you're compatible?</span>
+		<span id="subtitle"><span style="font-size: 9px">Friends * Lovers * Anger * Married * Engaged * Sweethearts</span> <br/> Do you really think you're compatible?</span>
 	</div>
 
 <div align="center">
 <?php
 
 		if ($page)
-			require($page.".php");
+		  require($page.".php");
 		else
 			require("main.php");
 ?></div>
@@ -51,5 +58,4 @@ Do you really think you're compatible?</span>
 		</table>
 	</div>
  </body>
-
-</html> 
+</html>
