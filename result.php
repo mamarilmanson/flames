@@ -183,30 +183,5 @@ Do you really think you're compatible?</span>
 		</table>
 		</form>
 	</div>
-	<hr style="color: gray" width="1000"/>
-	<div align="center">
-		<table width="1000" height="50" border="0">
-			<tr>
-				<td rowspan="2" width="500">
-					<div align="left">
-							<a href="http://www.facebook.com/"><img src="facebook.jpg" title="Facebook"/></a>&nbsp;
-							<a href="http://www.youtube.com/"><img src="youtube.jpg" title="Youtube"/></a>&nbsp;
-							<a href="http://www.tumblr.com/"><img src="tumblr.jpg" title="Tumblr"/></a>&nbsp;
-							<a href="http://www.twitter.com/"><img src="twitter.jpg" title="Twitter"/></a>&nbsp;
-					</div>
-				</td>
-				<td width="500">
-				<div align="right">
-					<a href="index.php" id="links">Main</a>&nbsp;
-					<a href="index.php?page=disclaimer" id="links">Disclaimer</a>&nbsp;
-					<a href="index.php?page=about" id="links">About</a>&nbsp;
-				</div>
-				</td>
-			</tr>
-			<tr>
-				<td>&nbsp;</td>
-			</tr>
-		</table>
-	</div>
 	</body>
 </html>
