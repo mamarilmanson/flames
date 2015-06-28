@@ -1,75 +1,10 @@
-	body {margin: 0px}
-	#black_box 
-		{
-			background-color: #000;
-		height:80px;
-		}
-    #table {
-		width: 1000px;
-		height: 450px
-    }
-	#title {
-		color: #fff;
-		font-family: arial black;
-		font-size: 25px
-	}
-	#subtitle {
-		color: #fff;
-		font-family: arial black;
-		font-size: 13px
-	}
-	#names {
-		font-size: 20px;
-		color: black;
-		font-weight: bold;
-		font-style: italic
-	}
-	.result {
-			font-family: old english text mt;
-			font-size: 40px;
-			color: black
-		} 
-		.above {
-		font-family: arial;
-		font-weight: bold;
-		font-size: 15px;
-		color: black
-		}
-		#result {font-size: 20px; font-family: arial; font-weight: bold}
-		#buttons
-			{
-				background-color: transparent;
-				color: black;
-				font-family: Arial black;
-				font-weight: bold;
-				font-size: 15px;
-				border: solid;
-				border-style: thin
-			}
-		#entry
-			{
-				font-family: arial;
-				font-weight: bold;
-				color: black
-			}
-		#links {
-			font-family: arial black; 
-			color: black; 
-			font-size: 10px;
-			text-decoration: none
-		}
-		#links:hover {color: gray}
-		#dis td{font-family: arial}
-		.txts {
-			font-family: arial; 
-			color: black; 
-			font-size: 13px;
-			text-decoration: none
-		}
-		.slots {width: 200px}
-		.center_slots {width: 600px}
-		.author {height: 20px}
-		.let {font-family: arial; color: white; background-color: #000}
-		.img_link {width: 250px}
-		.menu_link {width:120px}
-	img, a {border: none}
+
+.header_links:active, .header_links:link, .header_links:visited{
+	color: black
+}
+
+.bg_image{
+	position: absolute;
+	border: 1px black solid
+	background-image: url('images/bg_image.jpg');
+}

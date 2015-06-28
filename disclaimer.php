@@ -1,5 +1,5 @@
-<div>This website does <b>NOT</b> save any entered name, although, it saves the result but only appear
- as digits from 0 - 5 as illustrated below:</div>
+<div>
+	This website does <b>NOT</b> save any entered name, although, it saves the result but only appear as digits from 0 - 5 as illustrated below:</div>
  
 	<table width="220" id="dis" border="0">
 		<tr><td width="100">Friends</td><td>...................</td><td width="20">0</td></tr>
